@@ -7,8 +7,8 @@ How to generate report?
 CWEs and CVEs
 How to balance the additional security checks that increase the pipeline duration?
 When to run separate nightly buids or full scan?
-
 => Pre-Commit Hook=>
-
-
 Reactive check -> Progress Chef -> interesting one..-> uses concept of cookbook
+
+Idea:
+Code-> SAST Scan -> Build Image -> Image Scan
